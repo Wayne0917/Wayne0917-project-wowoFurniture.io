@@ -5,7 +5,8 @@
 實作商品列表、購物車操作、訂單送出與管理端訂單查詢等功能。
 
 ---
-
+👉 專案連結： [前台網站](https://wayne0917.github.io/Wayne0917-project-wowoFurniture.io/)
+ ｜ [後台管理系統](https://wayne0917.github.io/Wayne0917-project-wowoFurnitureBackstage.io/)
 ## 🚀 專案特色
 
 ### 🧠 架構設計
