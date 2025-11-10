@@ -61,13 +61,6 @@ https://livejs-api.hexschool.io/api/livejs/v1/customer/{api_path}
 
 ```
 https://livejs-api.hexschool.io/api/livejs/v1/admin/{api_path}/orders
-```
-
-> ⚠️ Admin API 需在 header 加入：
->
-> ```
-> Authorization: {token}
-> ```
 
 ---
 
