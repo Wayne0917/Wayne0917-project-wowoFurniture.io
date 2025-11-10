@@ -561,7 +561,7 @@ body {
 }
 
 .productCard img {
-  min-height: 300px;
+  min-height: 200px;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -870,4 +870,20 @@ body {
 
 .orderInfo-message{
   display: none;
+}
+
+.quantityInput{
+  width: 60% !important;
+  padding: 5px;
+}
+@media (max-width: 767px) {
+  .orderInfo-message{
+    width: 100%;
+    padding: 20px;
+  }
+  .quantityInput{
+    width: 100% !important;
+    font-size: 0.8rem !important; 
+  }
+  
 }

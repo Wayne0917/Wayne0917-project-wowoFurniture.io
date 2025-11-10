@@ -382,19 +382,13 @@ shoppingCart.addEventListener('change', (e) => {
         api_updateToCart(productId, quantity);        
     };
 });
-//Controller層-事件代理-刪除購物車
+//Controller層-事件代理-(1.)刪除購物車 (2.)刪除單一品項
 shoppingCart.addEventListener('click', (e) => {
-    if (e.target.matches(".discardAllBtn")) {
-        api_delAllToCart();
-    }
-});
-//Controller層-事件代理-刪除單一品項
-shoppingCart.addEventListener('click', (e) => {
+    //刪除購物車
+    if (e.target.matches(".discardAllBtn")) api_delAllToCart();
+    //刪除單一品項
     cartId = e.target.dataset.id;
-    
-    if (e.target.matches(".material-icons")) {
-        api_delSingleItemToCart(e.target.dataset.id);
-    }
+    if (e.target.matches(".material-icons")) api_delSingleItemToCart(e.target.dataset.id);
 });
 //Controller層-送出預定資料
 const allInput  = document.querySelectorAll('input');
@@ -418,7 +412,6 @@ orderInfoBtn.addEventListener('click', (e) => {
 
     if (!isWrite) return alert('請填寫正確資料');
     api_submitOrder();
-    allInput.forEach( input => input.value = "");
 })
 //當使用者修改任一欄位，就檢查那個欄位
 allInput.forEach((input, index) => {
