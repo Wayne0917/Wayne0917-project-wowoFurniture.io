@@ -86,12 +86,3 @@ https://livejs-api.hexschool.io/api/livejs/v1/admin/{api_path}/orders
 
 ---
 
-## 🧑‍💻 作者
-
-**Wei-Ting (Wayne)**
-
-* 💻 前端工程師養成中
-* 📩 GitHub: [Wayne0917](https://github.com/Wayne0917)
-* 🏷️ 專注於 React / JavaScript / FinTech 前端開發
-
----
