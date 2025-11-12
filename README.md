@@ -61,7 +61,7 @@ https://livejs-api.hexschool.io/api/livejs/v1/customer/{api_path}
 
 ```
 https://livejs-api.hexschool.io/api/livejs/v1/admin/{api_path}/orders
-
+```
 ---
 
 ## 📦 專案執行方式
@@ -70,11 +70,13 @@ https://livejs-api.hexschool.io/api/livejs/v1/admin/{api_path}/orders
 
    ```bash
    git clone https://github.com/Wayne0917/Wayne0917-project-wowoFurniture.io.git
+   ```
    
 2. 開啟專案資料夾
 
    ```bash
    cd Wayne0917-project-wowoFurniture.io
+   ```
    
 3. 以 Live Server 或任意靜態伺服器開啟 `index.html`
 
